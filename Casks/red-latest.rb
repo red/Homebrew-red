@@ -9,4 +9,8 @@ sha256 :no_check
  container type: :naked
 
  binary "red-latest", target: 'red'
+
+ postflight do
+  FileUtils.chmod '+x', "#{staged_path}/red-latest"
+ end
 end
