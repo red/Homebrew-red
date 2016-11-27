@@ -10,7 +10,7 @@
     
 To reinstall latest Red:
 
-    brew reinstall red-latest
+    brew cask reinstall red-latest
 
 Switching to the stable red version:
 
